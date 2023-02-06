@@ -17,7 +17,7 @@ first_appearance,
 characters,
 }) => {
 
-    const heroImageUrl = `public/heroes/${id}.jpg`
+    const heroImageUrl = `docs/heroes/${id}.jpg`
 
   return (
     <div className="col animate__animated animate__fadeIn">
