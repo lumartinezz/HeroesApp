@@ -18,12 +18,7 @@ export const HeroPage = () => {
    return <Navigate to ="/marvel"/> 
   }
 
-    // Build for github pages
     const heroImageUrl = `/assets/heroes/${id}.jpg`
-    // Build for local
-    // const heroImageUrl = `docs/assets/heroes/${id}.jpg`
-    // Local
-    // const heroImageUrl = `/assets/heroes/${id}.jpg`
 
   return (
     <div className="row mt-5">
