@@ -17,7 +17,12 @@ first_appearance,
 characters,
 }) => {
 
-    const heroImageUrl = `/${id}.jpg`
+    // Build for github pages
+    const heroImageUrl = `HeroApp/assets/heroes/${id}.jpg`
+    // Build for local
+    // const heroImageUrl = `docs/assets/heroes/${id}.jpg`
+    // Local
+    // const heroImageUrl = `/assets/heroes/${id}.jpg`
 
   return (
     <div className="col animate__animated animate__fadeIn">

@@ -18,11 +18,18 @@ export const HeroPage = () => {
    return <Navigate to ="/marvel"/> 
   }
 
+    // Build for github pages
+    const heroImageUrl = `HeroApp/assets/heroes/${id}.jpg`
+    // Build for local
+    // const heroImageUrl = `docs/assets/heroes/${id}.jpg`
+    // Local
+    // const heroImageUrl = `/assets/heroes/${id}.jpg`
+
   return (
     <div className="row mt-5">
         <div className="col-4">
           <img
-          src={`/heroes/${id}.jpg`}
+          src={heroImageUrl}
           alt={hero.superhero}
           className="img-thumbnail animate__animated animate__fadeInLeft"
           />
