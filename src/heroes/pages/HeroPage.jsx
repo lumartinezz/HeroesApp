@@ -19,7 +19,7 @@ export const HeroPage = () => {
   }
 
     // Build for github pages
-    const heroImageUrl = `HeroesApp/assets/heroes/${id}.jpg`
+    const heroImageUrl = `/HeroesApp/assets/heroes/${id}.jpg`
     // Build for local
     // const heroImageUrl = `docs/assets/heroes/${id}.jpg`
     // Local
